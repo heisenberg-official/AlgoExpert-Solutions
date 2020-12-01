@@ -1,5 +1,4 @@
 // TIME: O(N) , SPACE: O(1)
-
 bool isValidSubsequence(std::vector<int> array, std::vector<int> sequence)
 {
 	int arridx=0,seqidx=0;

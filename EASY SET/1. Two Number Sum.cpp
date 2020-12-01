@@ -1,3 +1,6 @@
+// Vineet Kumar
+
+// Solution One TIME: O(N^2) , SPACE: O(1)
 std::vector<int> twoNumberSum(std::vector<int> array, int targetSum)
 {
 	for (int i = 0; i < array.size(); i++)

@@ -8,3 +8,17 @@ bool isPalindrome(std::string str)
 		return false;
 }
 
+// TIME: O(N), SPACE: O(1)
+bool isPalindrome(std::string str)
+{
+	int left = 0, right = str.length() - 1;
+	while(left < right)
+		if(str[left] != str[right])
+			return false;
+		else
+		{
+			left++;
+			right--;
+		}
+	return true;
+}
